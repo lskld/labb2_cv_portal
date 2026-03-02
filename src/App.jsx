@@ -1,6 +1,9 @@
 import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import Home from './pages/Home'
+import Cv from './pages/Cv'
 import Projects from './pages/Projects'
+import About from './pages/About'
 
 function App() {
 
