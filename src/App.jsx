@@ -9,7 +9,7 @@ import About from './pages/About'
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/labb2_cv_portal'>
       <Navbar />
 
       <main>
