@@ -1,5 +1,6 @@
 import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Cv from './pages/Cv'
 import Projects from './pages/Projects'
@@ -9,12 +10,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/cv">CV</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/about">About</Link>
-      </nav>
+      <Navbar />
 
       <main>
         <Routes>
