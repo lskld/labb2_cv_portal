@@ -1,14 +1,25 @@
+/* ==== GLOBAL CSS ==== */
+
 #root {
-  max-width: 1280px;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
+/* ==== GLOBAL END ==== */
+
+/* ==== NAVBAR ==== */
+
 .navbar {
   background-color: #003380;
   padding: 12px 30px;
   border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .navbar ul {
@@ -23,4 +34,28 @@
 .navbar a {
   color: white;
   font-weight: 650;
+}
+
+/* ==== NAVBAR END ==== */
+
+/* ==== HERO SECTION ==== */
+
+.heroSection {
+  margin-top: 10rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heroText {
+  text-align: left;
+  max-width: 600px;
+  margin: 0;
+}
+
+.heroImage {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
 }
