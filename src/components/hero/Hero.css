@@ -1,0 +1,27 @@
+.heroSection {
+  margin-top: 10rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heroSection button:hover {
+  opacity: 80%;
+}
+
+.heroText {
+  text-align: left;
+  max-width: 500px;
+  margin: 0;
+}
+
+.heroText h2 {
+  color: #6666ff;
+}
+
+.heroImage {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+}

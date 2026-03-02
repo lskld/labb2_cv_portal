@@ -1,4 +1,5 @@
-import heroImage from '../assets/images/self_portrait.JPG'
+import './Hero.css'
+import heroImage from '../../assets/images/self_portrait.JPG'
 import { Link } from 'react-router-dom'
 
 function Hero() {

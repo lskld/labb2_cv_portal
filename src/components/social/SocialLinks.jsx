@@ -1,5 +1,6 @@
-import githubIcon from "../assets/images/github-icon.png"
-import linkedinIcon from "../assets/images/linkedin-icon.png"
+import './SocialLinks.css'
+import githubIcon from "../../assets/images/github-icon.png"
+import linkedinIcon from "../../assets/images/linkedin-icon.png"
 
 
 function SocialLinks() {

@@ -1,5 +1,5 @@
-import Hero from '../components/Hero'
-import SocialLinks from '../components/SocialLinks';
+import Hero from '../components/hero/Hero'
+import SocialLinks from '../components/social/SocialLinks';
 
 function Home() {
     return (
