@@ -1,0 +1,62 @@
+{
+    "personalInfo": {
+        "firstName": "Theo",
+        "lastName": "Lilliesköld",
+        "email": "theo.lillieskold@chasacademy.se"
+    },
+
+    "education": [
+        {
+            "school": "Chas Academy",
+            "course": "Fullstack .NET development",
+            "period": "2025 - 2027"
+        },
+        {
+            "school": "Hersby Gymnasium",
+            "course": "Business economics",
+            "period": "2017 - 2020"
+        }
+    ],
+
+    "workExperience": [
+        {
+            "company": "Busselmann Bil AB",
+            "description": "Co-Founder of Busselmann Bil, where me and a close friend of mine have bought and sold used cars on Blocket and other platforms.",
+            "period": "Mar 2024 - Dec 2025"
+        },
+        {
+            "company": "SIXT Rent a Car",
+            "description": "I started at Sixt in November 2020 as a Rental Sales Agent, and later in 2024 got promoted to Branch Manager over two rental car branches in Danderyd, Stockholm. At SIXT we provided premium car rental service to customers worldwide.",
+            "period": "2020 - 2025"
+        },
+        {
+            "company": "Sundsvalls Expressbyrå",
+            "description": "At Sundsvalls Expressbyrå i handled and delivered medicine, lab tests and toxic waste from the hospitals through the Stockholm region.",
+            "period": "Summer 2020"
+        },
+        {
+            "company": "TechBuddy",
+            "description": "I was an IT-support agent for TechBuddy where we helped customers with their tech and other IT issues directly in their own home. The work was flexible and mission based under your own schedule, which helped during my studies. ",
+            "period": "Apr 2019 - Nov 2019"
+        }
+    ],
+
+    "projects": [
+        {
+            "projectName": "C# Bank App",
+            "description": "During my C# course at Chas Academy i developed a C# banking apploication as a Console Application."
+        },
+        {
+            "projectName": "MILTON",
+            "description": "Developed an AI code documentation generator for the Proxify AI Hackathon hosted by Cillers. The Application was developed together with SAAB."
+        },
+        {
+            "projectName": "Munilytics",
+            "description": "A data-intensive analytics engine made in .NET together with some classmates, that make it possible to do analytic work on municipality data for all municipalities in Sweden."
+        },
+        {
+            "projectName": "SmartCup UF",
+            "description": "During my final year in Hersby Gymnasium, we made a UF company that sold foldable and reusable coffee mugs. The company sold both in physical locations aswell as through our online store with delivery."
+        }
+    ]
+}
