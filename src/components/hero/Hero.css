@@ -25,3 +25,9 @@
   height: auto;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 768px) {
+  .heroSection {
+    flex-direction: column-reverse;
+  }
+}
