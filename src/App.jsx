@@ -5,11 +5,13 @@ import Home from './pages/Home'
 import Cv from './pages/Cv'
 import Projects from './pages/Projects'
 import About from './pages/About'
+import Footer from './components/footer/footer'
 
 function App() {
 
   return (
     <BrowserRouter basename='/labb2_cv_portal'>
+      <div className='app_layout'>
       <Navbar />
 
       <main>
@@ -20,6 +22,9 @@ function App() {
           <Route path="/about" element={<About />} />
         </Routes>
       </main>
+      
+        <Footer />
+      </div>
     </BrowserRouter>
   )
 }
