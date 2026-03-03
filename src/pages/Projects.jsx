@@ -1,8 +1,8 @@
+import GithubRepos from "../components/github-repos/GithubRepos"
+
 function Projects() {
     return (
-        <div>
-            <h1>Projects</h1>
-        </div>
+        <GithubRepos />
     );
 }
 
