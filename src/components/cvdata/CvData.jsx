@@ -11,8 +11,7 @@ function CvData() {
                 {cvJson.education.map((education, index) => (
                     <div key={index} className="cv_item">
                         <h3>{education.school}</h3>
-                        <p>{education.course}</p>
-                        <p>{education.period}</p>
+                        <p>{education.course} | {education.period}</p>
                     </div>
                 ))}             
             </section>
@@ -32,8 +31,8 @@ function CvData() {
                 {cvJson.workExperience.map((work, index) => (
                     <div key={index} className="cv_item">
                         <h3>{work.company} - {work.role}</h3>
-                        <p>{work.description}</p>
                         <p>{work.period}</p>
+                        <p>{work.description}</p>
                     </div>
                 ))}
             </section>
