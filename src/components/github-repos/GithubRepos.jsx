@@ -20,7 +20,7 @@ function GithubRepos() {
     }, []);
 
     if (loading) {
-        return <p>Loading Github projects...</p>
+        return <p className='github_loading'>Loading Github projects...</p>
     }
 
     return(

@@ -10,5 +10,29 @@
 
 .project_card {
     line-height: 1rem;
-    margin-top: 2rem;
+
+    margin: 2rem auto;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: rgb(196, 205, 255);
+}
+
+.github_loading {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .project_grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .project_card {
+        max-width: 150px;
+    }
+
+    .project_card h3 {
+        font-size: 1rem;
+    }
 }
