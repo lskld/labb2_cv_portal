@@ -27,3 +27,16 @@
 .navbar a.active {
   color: #6666ff;
 }
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    max-width: 720px;
+    width: 90%;
+    padding: 8px 16px;
+  }  
+  .navbar ul {
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
