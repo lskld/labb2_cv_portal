@@ -1,8 +1,8 @@
+import CvData from "../components/cvdata/cvData";
+
 function Cv() {
     return (
-        <div>
-            <h1>CV</h1>
-        </div>
+        <CvData />
     );
 }
 

@@ -21,21 +21,25 @@
     "workExperience": [
         {
             "company": "Busselmann Bil AB",
+            "role": "Co-Founder",
             "description": "Co-Founder of Busselmann Bil, where me and a close friend of mine have bought and sold used cars on Blocket and other platforms.",
             "period": "Mar 2024 - Dec 2025"
         },
         {
             "company": "SIXT Rent a Car",
+            "role": "Branch Manager & Rental Sales Agent",
             "description": "I started at Sixt in November 2020 as a Rental Sales Agent, and later in 2024 got promoted to Branch Manager over two rental car branches in Danderyd, Stockholm. At SIXT we provided premium car rental service to customers worldwide.",
             "period": "2020 - 2025"
         },
         {
             "company": "Sundsvalls Expressbyrå",
+            "role": "Delivery driver",
             "description": "At Sundsvalls Expressbyrå i handled and delivered medicine, lab tests and toxic waste from the hospitals through the Stockholm region.",
             "period": "Summer 2020"
         },
         {
             "company": "TechBuddy",
+            "role": "Personal Technician",
             "description": "I was an IT-support agent for TechBuddy where we helped customers with their tech and other IT issues directly in their own home. The work was flexible and mission based under your own schedule, which helped during my studies. ",
             "period": "Apr 2019 - Nov 2019"
         }
