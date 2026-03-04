@@ -7,7 +7,7 @@ function CvData() {
 
     return(
         <div className="cv_container">
-            <h1>Fullstack .NET Developer</h1>
+            <h1>Fullstack <span className="dotnet">.NET</span> Developer</h1>
 
             <section className="cv_personal_info">
                 <p>{fullName} - {contactEmail}</p>  
