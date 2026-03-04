@@ -1,9 +1,10 @@
 .cv_container {
     text-align: left;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     margin-top: 5rem;
-    border: solid 2px;
+    background: linear-gradient(90deg, #dedeff, #efdbff, #d4e6ff);
+    border-radius: 10px;
 }
 
 .cv_section {
@@ -29,6 +30,7 @@
 
 .cv_container h1 {
     text-align: center;
+    padding-top: 1rem;
 }
 
 .dotnet {

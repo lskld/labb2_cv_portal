@@ -1,8 +1,8 @@
+import AboutMe from "../components/about-me/AboutMe"
+
 function About() {
     return (
-        <div>
-            <h1>About</h1>
-        </div>
+        <AboutMe />
     );
 }
 

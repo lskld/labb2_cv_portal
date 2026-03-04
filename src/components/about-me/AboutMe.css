@@ -1,0 +1,36 @@
+.about_container {
+    margin: 4rem auto;
+}
+
+.about_section {
+    margin: 1rem auto;
+    background: linear-gradient(90deg, #dedeff, #efdbff, #d4e6ff);
+    border-radius: 10px;
+}
+
+.about_content {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    justify-content: center;
+    gap: 1rem;
+
+    padding: 2rem 2rem;
+}
+
+.about_image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .about_content {
+        grid-template-columns: minmax(0, 1fr);
+        padding: 1rem;
+    }
+
+    .about_container {
+        margin: 4rem 1rem;
+    }
+}
