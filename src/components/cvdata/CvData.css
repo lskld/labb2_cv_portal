@@ -37,8 +37,9 @@
     color: #6666ff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1050px) {
     .cv_container {
         padding: 0.5rem;
+        width: 90%;
     }
 }

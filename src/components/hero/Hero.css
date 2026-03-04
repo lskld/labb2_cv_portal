@@ -1,9 +1,10 @@
 .heroSection {
-  margin-top: 10rem;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 10rem;
 }
 
 .heroSection button:hover {
@@ -26,8 +27,14 @@
   border-radius: 50%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1150px) {
   .heroSection {
     flex-direction: column-reverse;
+    margin-top: 3rem;
+    width: 90%;
+  }
+
+  .heroText {
+    text-align: center;
   }
 }
