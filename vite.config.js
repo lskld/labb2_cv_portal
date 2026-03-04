@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/labb2_cv_portal/'
+  base: '/labb2_cv_portal'
 })
