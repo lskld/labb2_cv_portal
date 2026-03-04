@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import { HashRouter, Routes, Route, Link } from 'react-router-dom'
 import Navbar from './components/navbar/Navbar'
 import Home from './pages/Home'
 import Cv from './pages/Cv'
@@ -10,7 +10,7 @@ import Footer from './components/footer/footer'
 function App() {
 
   return (
-    <BrowserRouter basename='/labb2_cv_portal'>
+    <HashRouter>
       <div className='app_layout'>
       <Navbar />
 
@@ -25,7 +25,7 @@ function App() {
       
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
