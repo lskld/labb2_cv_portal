@@ -1,8 +1,18 @@
 .cv_container {
     text-align: left;
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto;
     margin-top: 5rem;
+    border: solid 2px;
+}
+
+.cv_section {
+    padding: 1rem;
+}
+
+.cv_personal_info {
+    padding: 0 1rem;
+    text-align: center;
 }
 
 .cv_item {

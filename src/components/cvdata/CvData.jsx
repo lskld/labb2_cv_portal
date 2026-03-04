@@ -2,9 +2,16 @@ import "./CvData.css"
 import cvJson from '../../assets/cv.json'
 
 function CvData() {
+    const fullName = cvJson.personalInfo.firstName + " " + cvJson.personalInfo.lastName;
+    const contactEmail = cvJson.personalInfo.email;
+
     return(
         <div className="cv_container">
-            <h1>My CV</h1>
+            <h1>Fullstack .NET Developer</h1>
+
+            <section className="cv_personal_info">
+                <p>{fullName} - {contactEmail}</p>  
+            </section>
 
             <section className="cv_section">
                 <h2>Education</h2>
