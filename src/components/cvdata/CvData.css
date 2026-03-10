@@ -43,3 +43,16 @@
         width: 90%;
     }
 }
+@media print {
+    .navbar {
+        display: none !important;
+    }
+
+    .footer {
+        display: none !important;
+    }
+
+    .cv_container {
+        margin-top: 0;
+    }
+}
